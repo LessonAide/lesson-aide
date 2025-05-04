@@ -34,6 +34,9 @@ export const theme = createTheme({
         error: {
             main: '#FF3333',
             light: '#FFE8E8'
-        }
+        },
+    },
+    typography: {
+        fontFamily: ['Montserrat', 'serif'].join(',')
     }
 });
